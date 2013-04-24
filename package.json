@@ -1,0 +1,32 @@
+{
+  "name": "pircbot",
+  "description": "irc bot for simple channel commands and jenkins build status poller that runs on a RaspberryPi :)",
+  "version": "0.1.0",
+  "homepage": "https://github.com/hachr/pircbot",
+  "author": {
+    "name": "hachr",
+    "email": "nhat@hachr.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hachr/pircbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hachr/pircbot/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hachr/pircbot/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "irc": "~0.3.6"
+  },
+  "keywords": [
+    "irc", "raspberrypi"
+  ]
+}
